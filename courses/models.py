@@ -12,7 +12,8 @@ class Course(models.Model):
         """return a string representation of the Course object"""
         return self.title
 
-
+    class Meta:
+        ordering = ['title',]
     #Check on repr for test driven development
     """def __repr__(self):
         return Course.__name__"""

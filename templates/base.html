@@ -13,11 +13,16 @@
     <title>{%block title%} Eustone Student Management Systemsp{%endblock title%}</title>
   </head>
   <body>
+  <div class="site-container">
+     <nav>
+        <a href="{% url 'home'%}">Home</a>
+        <a href="{% url 'courses:course_list'%}">Courses</a>
+     </nav>
     <!--<h1>Hello, world!</h1> -->
+    {%block body%}  {%endblock body%}
+  </div>
 
-    {%block body%}
 
-    {%endblock body%}
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

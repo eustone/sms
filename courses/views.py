@@ -13,5 +13,4 @@ class CourseListView(ListView):
 
 class CourseDetailView(DetailView):
     model = Course
-    context_object_name = 'course_detail'
     template_name = 'courses/course_detail.html'

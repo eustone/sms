@@ -11,6 +11,8 @@ class Course(models.Model):
     def __str__(self):
         """return a string representation of the Course object"""
         return self.title
+
+
     #Check on repr for test driven development
     """def __repr__(self):
         return Course.__name__"""

@@ -16,7 +16,7 @@ Book_Category = (
 class Author(models.Model):
     name = models.CharField(max_length=255)
     biography = models.TextField(verbose_name='Bio')
-    dob       = models.DateField(auto_now=True)
+    dob       = models.DateField()
     address   = models.CharField(max_length=255)
     country   = models.CharField(max_length=150)
 

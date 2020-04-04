@@ -1,2 +1,2 @@
 # sms
-Student Management System
+Student Management System -Using Django and RestFramework

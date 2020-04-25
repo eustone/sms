@@ -40,12 +40,12 @@ INSTALLED_APPS = [
     #Django Packages
     'rest_framework',
     #Django Project System Apps
-    'accounts',
     'courses',
     'examinations',
     'finance',
     'registrations',
     'stocksystem',
+    'students',
     'studentservices',
 ]
 
